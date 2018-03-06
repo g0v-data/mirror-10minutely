@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>本日0時至現在雨量站資料(2018/03/07 00:00 ~ 2018/03/07 00:30)</name>	<StyleMap id="symbol_black">
+	<name>本日0時至現在雨量站資料(2018/03/07 00:00 ~ 2018/03/07 00:40)</name>	<StyleMap id="symbol_black">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#symbol_black-normal</styleUrl>
@@ -141,6 +141,111 @@
 		</IconStyle>
 	</Style>
 	<Placemark>
+		<name>冬山</name>
+		<LookAt>
+			<longitude>121.783933</longitude>
+			<latitude>24.635687</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.783933,24.635687,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">冬山(01U13)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>宜蘭縣冬山鄉冬山村(水利會冬山工作站)</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">1.0</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>新北城</name>
+		<LookAt>
+			<longitude>121.748775</longitude>
+			<latitude>24.680903</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.748775,24.680903,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">新北城(01U19)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>宜蘭縣冬山鄉北成里(五結堤防堤頂)</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">1.0</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>福山植物園</name>
+		<LookAt>
+			<longitude>121.581321</longitude>
+			<latitude>24.760637</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.581321,24.760637,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">福山植物園(01U88)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>宜蘭縣員山鄉湖西村雙埤路福山1號(福山植物園)</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">1.0</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
 		<name>雙連埤</name>
 		<LookAt>
 			<longitude>121.641303</longitude>
@@ -166,7 +271,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -201,7 +306,42 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">1.0</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>上林國小</name>
+		<LookAt>
+			<longitude>121.832514</longitude>
+			<latitude>25.029351</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.832514,25.029351,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">上林國小(O1AH2)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>新北市雙溪區上林村內平林60號</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -236,7 +376,112 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">0.5</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>基隆</name>
+		<LookAt>
+			<longitude>121.740475</longitude>
+			<latitude>25.13331389</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.740475,25.13331389,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">基隆(46694)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>基隆市仁愛區港西街6號6樓(海港大樓)</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">0.5</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>蘭陽分場</name>
+		<LookAt>
+			<longitude>121.716583</longitude>
+			<latitude>24.686306</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.716583,24.686306,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">蘭陽分場(72U48)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>宜蘭縣三星鄉大義村上將三段81巷6號</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">0.5</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>萬里國小</name>
+		<LookAt>
+			<longitude>121.689444</longitude>
+			<latitude>25.175833</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.689444,25.175833,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">萬里國小(81AH5)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>新北市萬里區瑪鋉路18號</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -271,7 +516,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -306,7 +551,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -341,7 +586,42 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">0.5</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>大坪</name>
+		<LookAt>
+			<longitude>121.632969</longitude>
+			<latitude>25.165914</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.632969,25.165914,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">大坪(C0A86)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>新北市萬里區溪底里香員林6-3號</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -376,7 +656,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -411,7 +691,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -446,7 +726,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -481,7 +761,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -516,7 +796,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -551,7 +831,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -586,7 +866,42 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">0.5</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>大福</name>
+		<LookAt>
+			<longitude>121.813892</longitude>
+			<latitude>24.800636</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>121.813892,24.800636,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">大福(C0U97)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>宜蘭縣壯圍鄉大福路一段62巷26號(大福國小)</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -621,7 +936,42 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
+		<td valign="middle" width="100" align="left" bgcolor=white id="rainmm">0.5</td>
+		</tr>
+		</table>
+		]]></description>
+	</Placemark>
+	<Placemark>
+		<name>新興橋</name>
+		<LookAt>
+			<longitude>120.868728</longitude>
+			<latitude>23.563333</latitude>
+			<altitude>0</altitude>
+			<range>0</range>
+			<tilt>0</tilt>
+			<heading>0</heading>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#symbol_black</styleUrl>
+		<Point>
+			<coordinates>120.868728,23.563333,0</coordinates>
+		</Point>
+		<description><![CDATA[		<table border="0" cellpadding="3" cellspacing="1" bgcolor="#A9C5DC" summary="雨量資訊">
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor="f5f5f5">地點(測站碼)</th>
+		<th valign="middle" width="100" align="left" bgcolor="f5f5f5">新興橋(C1I34)</th>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>所在地</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>南投縣信義鄉台21線(新興橋附近)</td>
+		</tr>
+		<tr>
+		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -656,7 +1006,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -691,7 +1041,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
@@ -726,7 +1076,7 @@
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>更新時間</th>
-		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:35:14</td>
+		<td valign="middle" width="100" align="left" bgcolor=white>2018-03-07 00:45:14</td>
 		</tr>
 		<tr>
 		<th valign="middle" width="160" align="left" bgcolor=f5f5f5>本日0時至現在累積<br>雨量(毫米)</th>
