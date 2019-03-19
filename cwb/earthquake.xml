@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
 <cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
-  <identifier>CWB-EQ108020-2019-0317-204423</identifier>
+  <identifier>CWB-EQ108021-2019-0319-120134</identifier>
   <sender>CWB_SC@scman.cwb.gov.tw</sender>
-  <sent>2019-03-17T20:48:30+08:00</sent>
+  <sent>2019-03-19T12:06:34+08:00</sent>
   <status>Actual</status>
   <msgType>Issue</msgType>
   <source>CWB</source>
@@ -11,28 +11,28 @@
     <datasetInfo>
       <datasetDescription>地震報告</datasetDescription>
       <datasetLanguage>zh-TW</datasetLanguage>
-      <issueTime>2019-03-17T20:48:30+08:00</issueTime>
-      <validTime><endTime>2019-03-18T04:48:30+08:00</endTime></validTime>
+      <issueTime>2019-03-19T12:06:34+08:00</issueTime>
+      <validTime><endTime>2019-03-19T20:06:34+08:00</endTime></validTime>
     </datasetInfo>
     <earthquake>
       <reportType>地震報告</reportType>
-      <earthquakeNo>108020</earthquakeNo>
-      <reportContent>03/17-20:44臺灣東部海域發生規模4.1有感地震，最大震度宜蘭縣武塔3級。</reportContent>
+      <earthquakeNo>108021</earthquakeNo>
+      <reportContent>03/19-12:01臺灣東部海域發生規模4.7有感地震，最大震度宜蘭縣牛鬥、桃園市新屋3級。</reportContent>
       <reportColor>綠色</reportColor>
-      <web>https://scweb.cwb.gov.tw/zh-tw/earthquake/details/2019031720442341020</web>
-      <reportImageURI>https://scweb.cwb.gov.tw/webdata/OLDEQ/201903/2019031720442341020_H.png</reportImageURI>
-      <shakemapImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/plotContour/2019/2019020.gif</shakemapImageURI>
+      <web>https://scweb.cwb.gov.tw/zh-tw/earthquake/details/2019031912013447021</web>
+      <reportImageURI>https://scweb.cwb.gov.tw/webdata/OLDEQ/201903/2019031912013447021_H.png</reportImageURI>
+      <shakemapImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/plotContour/2019/2019021.gif</shakemapImageURI>
       <earthquakeInfo>
-        <originTime>2019-03-17T20:44:23+08:00</originTime>
+        <originTime>2019-03-19T12:01:34+08:00</originTime>
         <epicenter>
-          <epicenterLon unit="度">121.90</epicenterLon>
-          <epicenterLat unit="度">24.44</epicenterLat>
-          <location>宜蘭縣政府南偏東方  35.5  公里 (位於臺灣東部海域)</location>
+          <epicenterLon unit="度">121.94</epicenterLon>
+          <epicenterLat unit="度">24.75</epicenterLat>
+          <location>宜蘭縣政府東方  18.3  公里 (位於臺灣東部海域)</location>
         </epicenter>
-        <depth unit="公里">22.6</depth>
+        <depth unit="公里">83.1</depth>
         <magnitude>
           <magnitudeType>芮氏規模</magnitudeType>
-          <magnitudeValue>4.1</magnitudeValue>
+          <magnitudeValue>4.7</magnitudeValue>
         </magnitude>
         <source>中央氣象局</source>
       </earthquakeInfo>
@@ -43,116 +43,249 @@
           <areaIntensity unit="級">3</areaIntensity>
           <infoStatus>observe</infoStatus>
           <eqStation>
-            <stationName>武塔</stationName>
-            <stationCode>EWT</stationCode>
-            <stationLon unit="度">121.78</stationLon>
-            <stationLat unit="度">24.45</stationLat>
-            <distance unit="公里">12.64</distance>
-            <azimuth unit="度">93.78</azimuth>
+            <stationName>牛鬥</stationName>
+            <stationCode>ENT</stationCode>
+            <stationLon unit="度">121.57</stationLon>
+            <stationLat unit="度">24.64</stationLat>
+            <distance unit="公里">39.31</distance>
+            <azimuth unit="度">72.13</azimuth>
             <stationIntensity unit="級">3</stationIntensity>
             <pga unit="gal">
-              <vComponent>4.28</vComponent>
-              <nsComponent>8.76</nsComponent>
-              <ewComponent>8.32</ewComponent>
+              <vComponent>5.40</vComponent>
+              <nsComponent>15.38</nsComponent>
+              <ewComponent>11.72</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/3-EWT.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/3-ENT.gif</waveImageURI>
           </eqStation>
           <eqStation>
             <stationName>南澳</stationName>
             <stationCode>ENA</stationCode>
             <stationLon unit="度">121.75</stationLon>
             <stationLat unit="度">24.43</stationLat>
-            <distance unit="公里">15.63</distance>
-            <azimuth unit="度">85.44</azimuth>
+            <distance unit="公里">40.62</distance>
+            <azimuth unit="度">28.98</azimuth>
             <stationIntensity unit="級">3</stationIntensity>
             <pga unit="gal">
-              <vComponent>5.14</vComponent>
-              <nsComponent>14.93</nsComponent>
-              <ewComponent>9.26</ewComponent>
+              <vComponent>2.90</vComponent>
+              <nsComponent>9.74</nsComponent>
+              <ewComponent>10.10</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/3-ENA.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/3-ENA.gif</waveImageURI>
           </eqStation>
           <eqStation>
             <stationName>冬山</stationName>
             <stationCode>NDS</stationCode>
             <stationLon unit="度">121.72</stationLon>
             <stationLat unit="度">24.63</stationLat>
-            <distance unit="公里">28.81</distance>
-            <azimuth unit="度">139.19</azimuth>
-            <stationIntensity unit="級">2</stationIntensity>
+            <distance unit="公里">26.10</distance>
+            <azimuth unit="度">61.43</azimuth>
+            <stationIntensity unit="級">3</stationIntensity>
             <pga unit="gal">
-              <vComponent>1.96</vComponent>
-              <nsComponent>3.46</nsComponent>
-              <ewComponent>2.06</ewComponent>
+              <vComponent>8.79</vComponent>
+              <nsComponent>2.94</nsComponent>
+              <ewComponent>2.83</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/2-NDS.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/3-NDS.gif</waveImageURI>
           </eqStation>
           <eqStation>
             <stationName>宜蘭市</stationName>
             <stationCode>ILA</stationCode>
             <stationLon unit="度">121.76</stationLon>
             <stationLat unit="度">24.76</stationLat>
-            <distance unit="公里">39.12</distance>
-            <azimuth unit="度">157.74</azimuth>
+            <distance unit="公里">19.01</distance>
+            <azimuth unit="度">95.79</azimuth>
             <stationIntensity unit="級">2</stationIntensity>
             <pga unit="gal">
-              <vComponent>1.51</vComponent>
-              <nsComponent>2.31</nsComponent>
-              <ewComponent>3.48</ewComponent>
+              <vComponent>3.11</vComponent>
+              <nsComponent>4.38</nsComponent>
+              <ewComponent>3.03</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/2-ILA.gif</waveImageURI>
-          </eqStation>
-          <eqStation>
-            <stationName>牛鬥</stationName>
-            <stationCode>ENT</stationCode>
-            <stationLon unit="度">121.57</stationLon>
-            <stationLat unit="度">24.64</stationLat>
-            <distance unit="公里">40.07</distance>
-            <azimuth unit="度">123.69</azimuth>
-            <stationIntensity unit="級">2</stationIntensity>
-            <pga unit="gal">
-              <vComponent>0.77</vComponent>
-              <nsComponent>2.06</nsComponent>
-              <ewComponent>3.53</ewComponent>
-            </pga>
-            <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/2-ENT.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-ILA.gif</waveImageURI>
           </eqStation>
           <eqStation>
             <stationName>內城</stationName>
             <stationCode>TWE</stationCode>
             <stationLon unit="度">121.68</stationLon>
             <stationLat unit="度">24.72</stationLat>
-            <distance unit="公里">38.27</distance>
-            <azimuth unit="度">144.43</azimuth>
-            <stationIntensity unit="級">1</stationIntensity>
+            <distance unit="公里">26.53</distance>
+            <azimuth unit="度">83.15</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
             <pga unit="gal">
-              <vComponent>0.72</vComponent>
-              <nsComponent>1.11</nsComponent>
-              <ewComponent>0.98</ewComponent>
+              <vComponent>2.20</vComponent>
+              <nsComponent>2.84</nsComponent>
+              <ewComponent>2.84</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/1-TWE.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-TWE.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>武塔</stationName>
+            <stationCode>EWT</stationCode>
+            <stationLon unit="度">121.78</stationLon>
+            <stationLat unit="度">24.45</stationLat>
+            <distance unit="公里">37.40</distance>
+            <azimuth unit="度">26.54</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>7.60</vComponent>
+              <nsComponent>4.94</nsComponent>
+              <ewComponent>4.46</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-EWT.gif</waveImageURI>
           </eqStation>
           <eqStation>
             <stationName>南山</stationName>
             <stationCode>NNS</stationCode>
             <stationLon unit="度">121.38</stationLon>
             <stationLat unit="度">24.44</stationLat>
-            <distance unit="公里">52.85</distance>
-            <azimuth unit="度">89.99</azimuth>
-            <stationIntensity unit="級">1</stationIntensity>
+            <distance unit="公里">66.45</distance>
+            <azimuth unit="度">58.92</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
             <pga unit="gal">
-              <vComponent>0.18</vComponent>
-              <nsComponent>0.82</nsComponent>
-              <ewComponent>0.68</ewComponent>
+              <vComponent>1.13</vComponent>
+              <nsComponent>3.42</nsComponent>
+              <ewComponent>3.34</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/1-NNS.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-NNS.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>頭城</stationName>
+            <stationCode>NTC</stationCode>
+            <stationLon unit="度">121.83</stationLon>
+            <stationLat unit="度">24.85</stationLat>
+            <distance unit="公里">16.59</distance>
+            <azimuth unit="度">136.18</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>2.22</vComponent>
+              <nsComponent>2.50</nsComponent>
+              <ewComponent>2.56</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-NTC.gif</waveImageURI>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>桃園市地區</areaDesc>
+          <areaName>桃園市</areaName>
+          <areaIntensity unit="級">3</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>新屋</stationName>
+            <stationCode>NHW</stationCode>
+            <stationLon unit="度">121.05</stationLon>
+            <stationLat unit="度">25.01</stationLat>
+            <distance unit="公里">95.01</distance>
+            <azimuth unit="度">107.69</azimuth>
+            <stationIntensity unit="級">3</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.41</vComponent>
+              <nsComponent>7.98</nsComponent>
+              <ewComponent>13.11</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/3-NHW.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>三光</stationName>
+            <stationCode>NSK</stationCode>
+            <stationLon unit="度">121.37</stationLon>
+            <stationLat unit="度">24.67</stationLat>
+            <distance unit="公里">58.93</distance>
+            <azimuth unit="度">82.10</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>0.99</vComponent>
+              <nsComponent>2.66</nsComponent>
+              <ewComponent>1.98</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-NSK.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>中壢</stationName>
+            <stationCode>NCU</stationCode>
+            <stationLon unit="度">121.19</stationLon>
+            <stationLat unit="度">24.97</stationLat>
+            <distance unit="公里">79.55</distance>
+            <azimuth unit="度">107.94</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.60</vComponent>
+              <nsComponent>5.25</nsComponent>
+              <ewComponent>4.44</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-NCU.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>桃園市</stationName>
+            <stationCode>NTY</stationCode>
+            <stationLon unit="度">121.30</stationLon>
+            <stationLat unit="度">25.00</stationLat>
+            <distance unit="公里">71.04</distance>
+            <azimuth unit="度">113.30</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>臺北市地區</areaDesc>
+          <areaName>臺北市</areaName>
+          <areaIntensity unit="級">2</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>信義區</stationName>
+            <stationCode>NHY</stationCode>
+            <stationLon unit="度">121.57</stationLon>
+            <stationLat unit="度">25.04</stationLat>
+            <distance unit="公里">49.84</distance>
+            <azimuth unit="度">130.69</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>6.86</vComponent>
+              <nsComponent>4.39</nsComponent>
+              <ewComponent>3.15</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-NHY.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>木柵</stationName>
+            <stationCode>TWA</stationCode>
+            <stationLon unit="度">121.59</stationLon>
+            <stationLat unit="度">24.98</stationLat>
+            <distance unit="公里">43.79</distance>
+            <azimuth unit="度">125.89</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>0.97</vComponent>
+              <nsComponent>1.14</nsComponent>
+              <ewComponent>1.24</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-TWA.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>臺北市</stationName>
+            <stationCode>TAP</stationCode>
+            <stationLon unit="度">121.51</stationLon>
+            <stationLat unit="度">25.04</stationLat>
+            <distance unit="公里">54.11</distance>
+            <azimuth unit="度">126.67</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.66</vComponent>
+              <nsComponent>1.89</nsComponent>
+              <ewComponent>1.31</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-TAP.gif</waveImageURI>
           </eqStation>
         </shakingArea>
         <shakingArea>
@@ -161,89 +294,451 @@
           <areaIntensity unit="級">2</areaIntensity>
           <infoStatus>observe</infoStatus>
           <eqStation>
-            <stationName>和平</stationName>
-            <stationCode>EHP</stationCode>
-            <stationLon unit="度">121.75</stationLon>
-            <stationLat unit="度">24.31</stationLat>
-            <distance unit="公里">21.24</distance>
-            <azimuth unit="度">47.22</azimuth>
-            <stationIntensity unit="級">2</stationIntensity>
-            <pga unit="gal">
-              <vComponent>1.82</vComponent>
-              <nsComponent>2.30</nsComponent>
-              <ewComponent>3.01</ewComponent>
-            </pga>
-            <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/2-EHP.gif</waveImageURI>
-          </eqStation>
-          <eqStation>
             <stationName>太魯閣</stationName>
             <stationCode>ETL</stationCode>
             <stationLon unit="度">121.62</stationLon>
             <stationLat unit="度">24.16</stationLat>
-            <distance unit="公里">42.03</distance>
-            <azimuth unit="度">42.49</azimuth>
-            <stationIntensity unit="級">1</stationIntensity>
+            <distance unit="公里">72.91</distance>
+            <azimuth unit="度">26.45</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
             <pga unit="gal">
-              <vComponent>0.48</vComponent>
-              <nsComponent>1.81</nsComponent>
-              <ewComponent>1.40</ewComponent>
+              <vComponent>0.89</vComponent>
+              <nsComponent>2.92</nsComponent>
+              <ewComponent>2.65</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/1-ETL.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-ETL.gif</waveImageURI>
           </eqStation>
           <eqStation>
             <stationName>西寶</stationName>
             <stationCode>ETLH</stationCode>
             <stationLon unit="度">121.48</stationLon>
             <stationLat unit="度">24.21</stationLat>
-            <distance unit="公里">49.80</distance>
-            <azimuth unit="度">59.06</azimuth>
-            <stationIntensity unit="級">1</stationIntensity>
+            <distance unit="公里">76.00</distance>
+            <azimuth unit="度">38.00</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
             <pga unit="gal">
-              <vComponent>0.81</vComponent>
-              <nsComponent>1.55</nsComponent>
-              <ewComponent>1.40</ewComponent>
+              <vComponent>2.09</vComponent>
+              <nsComponent>3.31</nsComponent>
+              <ewComponent>2.83</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/1-ETLH.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-ETLH.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>花蓮市</stationName>
+            <stationCode>HWA</stationCode>
+            <stationLon unit="度">121.61</stationLon>
+            <stationLat unit="度">23.98</stationLat>
+            <distance unit="公里">91.91</distance>
+            <azimuth unit="度">21.35</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>0.33</vComponent>
+              <nsComponent>0.74</nsComponent>
+              <ewComponent>0.94</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-HWA.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>銅門</stationName>
+            <stationCode>ETM</stationCode>
+            <stationLon unit="度">121.49</stationLon>
+            <stationLat unit="度">23.97</stationLat>
+            <distance unit="公里">97.98</distance>
+            <azimuth unit="度">27.81</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>0.64</vComponent>
+              <nsComponent>1.17</nsComponent>
+              <ewComponent>0.94</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-ETM.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>西林</stationName>
+            <stationCode>ESL</stationCode>
+            <stationLon unit="度">121.44</stationLon>
+            <stationLat unit="度">23.81</stationLat>
+            <distance unit="公里">115.52</distance>
+            <azimuth unit="度">26.17</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>0.39</vComponent>
+              <nsComponent>0.71</nsComponent>
+              <ewComponent>0.86</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-ESL.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>磯崎</stationName>
+            <stationCode>EGC</stationCode>
+            <stationLon unit="度">121.55</stationLon>
+            <stationLat unit="度">23.71</stationLat>
+            <distance unit="公里">122.06</distance>
+            <azimuth unit="度">19.23</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>0.59</vComponent>
+              <nsComponent>0.88</nsComponent>
+              <ewComponent>0.65</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-EGC.gif</waveImageURI>
           </eqStation>
         </shakingArea>
         <shakingArea>
-          <areaDesc>臺北市地區</areaDesc>
-          <areaName>臺北市</areaName>
+          <areaDesc>新竹縣地區</areaDesc>
+          <areaName>新竹縣</areaName>
+          <areaIntensity unit="級">2</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>竹東</stationName>
+            <stationCode>NJD</stationCode>
+            <stationLon unit="度">121.09</stationLon>
+            <stationLat unit="度">24.74</stationLat>
+            <distance unit="公里">86.52</distance>
+            <azimuth unit="度">89.21</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.62</vComponent>
+              <nsComponent>6.18</nsComponent>
+              <ewComponent>5.78</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-NJD.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>竹北市</stationName>
+            <stationCode>HSN</stationCode>
+            <stationLon unit="度">121.01</stationLon>
+            <stationLat unit="度">24.83</stationLat>
+            <distance unit="公里">94.38</distance>
+            <azimuth unit="度">95.51</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.50</vComponent>
+              <nsComponent>5.51</nsComponent>
+              <ewComponent>4.70</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-HSN.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>峨眉</stationName>
+            <stationCode>LIOB</stationCode>
+            <stationLon unit="度">121.02</stationLon>
+            <stationLat unit="度">24.65</stationLat>
+            <distance unit="公里">94.46</distance>
+            <azimuth unit="度">83.28</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.25</vComponent>
+              <nsComponent>4.11</nsComponent>
+              <ewComponent>4.45</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-LIOB.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>五峰</stationName>
+            <stationCode>NFF</stationCode>
+            <stationLon unit="度">121.12</stationLon>
+            <stationLat unit="度">24.63</stationLat>
+            <distance unit="公里">84.51</distance>
+            <azimuth unit="度">81.35</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.77</vComponent>
+              <nsComponent>2.42</nsComponent>
+              <ewComponent>2.00</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-NFF.gif</waveImageURI>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>臺中市地區</areaDesc>
+          <areaName>臺中市</areaName>
+          <areaIntensity unit="級">2</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>梨山</stationName>
+            <stationCode>FUSS</stationCode>
+            <stationLon unit="度">121.24</stationLon>
+            <stationLat unit="度">24.25</stationLat>
+            <distance unit="公里">89.95</distance>
+            <azimuth unit="度">52.01</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>2.05</vComponent>
+              <nsComponent>3.39</nsComponent>
+              <ewComponent>3.46</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-FUSS.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>烏石坑</stationName>
+            <stationCode>WHP</stationCode>
+            <stationLon unit="度">120.95</stationLon>
+            <stationLat unit="度">24.28</stationLat>
+            <distance unit="公里">113.69</distance>
+            <azimuth unit="度">62.77</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>2.30</vComponent>
+              <nsComponent>2.68</nsComponent>
+              <ewComponent>2.49</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-WHP.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>德基</stationName>
+            <stationCode>TWT</stationCode>
+            <stationLon unit="度">121.16</stationLon>
+            <stationLat unit="度">24.25</stationLat>
+            <distance unit="公里">96.50</distance>
+            <azimuth unit="度">55.14</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.53</vComponent>
+              <nsComponent>2.11</nsComponent>
+              <ewComponent>1.96</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-TWT.gif</waveImageURI>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>新竹市地區</areaDesc>
+          <areaName>新竹市</areaName>
+          <areaIntensity unit="級">2</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>新竹市</stationName>
+            <stationCode>HSN1</stationCode>
+            <stationLon unit="度">121.02</stationLon>
+            <stationLat unit="度">24.78</stationLat>
+            <distance unit="公里">93.65</distance>
+            <azimuth unit="度">92.14</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.27</vComponent>
+              <nsComponent>4.34</nsComponent>
+              <ewComponent>2.62</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-HSN1.gif</waveImageURI>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>新北市地區</areaDesc>
+          <areaName>新北市</areaName>
+          <areaIntensity unit="級">2</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>新北市</stationName>
+            <stationCode>BAC</stationCode>
+            <stationLon unit="度">121.44</stationLon>
+            <stationLat unit="度">25.00</stationLat>
+            <distance unit="公里">57.83</distance>
+            <azimuth unit="度">118.79</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>6.13</vComponent>
+              <nsComponent>5.90</nsComponent>
+              <ewComponent>5.49</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-BAC.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>五分山</stationName>
+            <stationCode>NWF</stationCode>
+            <stationLon unit="度">121.78</stationLon>
+            <stationLat unit="度">25.07</stationLat>
+            <distance unit="公里">39.60</distance>
+            <azimuth unit="度">155.62</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>2.45</vComponent>
+              <nsComponent>1.97</nsComponent>
+              <ewComponent>2.47</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-NWF.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>五股</stationName>
+            <stationCode>TWS1</stationCode>
+            <stationLon unit="度">121.42</stationLon>
+            <stationLat unit="度">25.10</stationLat>
+            <distance unit="公里">65.64</distance>
+            <azimuth unit="度">126.87</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.22</vComponent>
+              <nsComponent>1.78</nsComponent>
+              <ewComponent>2.26</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-TWS1.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>石門</stationName>
+            <stationCode>NSM</stationCode>
+            <stationLon unit="度">121.59</stationLon>
+            <stationLat unit="度">25.29</stationLat>
+            <distance unit="公里">69.93</distance>
+            <azimuth unit="度">149.21</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>0.50</vComponent>
+              <nsComponent>1.16</nsComponent>
+              <ewComponent>1.61</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-NSM.gif</waveImageURI>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>南投縣地區</areaDesc>
+          <areaName>南投縣</areaName>
+          <areaIntensity unit="級">2</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>合歡山</stationName>
+            <stationCode>WHF</stationCode>
+            <stationLon unit="度">121.27</stationLon>
+            <stationLat unit="度">24.14</stationLat>
+            <distance unit="公里">95.43</distance>
+            <azimuth unit="度">45.47</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.04</vComponent>
+              <nsComponent>2.50</nsComponent>
+              <ewComponent>3.15</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-WHF.gif</waveImageURI>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>苗栗縣地區</areaDesc>
+          <areaName>苗栗縣</areaName>
+          <areaIntensity unit="級">2</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>南庄</stationName>
+            <stationCode>NST</stationCode>
+            <stationLon unit="度">121.01</stationLon>
+            <stationLat unit="度">24.63</stationLat>
+            <distance unit="公里">95.47</distance>
+            <azimuth unit="度">82.19</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.85</vComponent>
+              <nsComponent>3.57</nsComponent>
+              <ewComponent>6.32</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-NST.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>苗栗市</stationName>
+            <stationCode>NMLH</stationCode>
+            <stationLon unit="度">120.79</stationLon>
+            <stationLat unit="度">24.54</stationLat>
+            <distance unit="公里">118.94</distance>
+            <azimuth unit="度">78.74</azimuth>
+            <stationIntensity unit="級">2</stationIntensity>
+            <pga unit="gal">
+              <vComponent>2.00</vComponent>
+              <nsComponent>2.36</nsComponent>
+              <ewComponent>2.66</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/2-NMLH.gif</waveImageURI>
+          </eqStation>
+          <eqStation>
+            <stationName>竹南</stationName>
+            <stationCode>NJN</stationCode>
+            <stationLon unit="度">120.87</stationLon>
+            <stationLat unit="度">24.68</stationLat>
+            <distance unit="公里">108.79</distance>
+            <azimuth unit="度">86.32</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>1.05</vComponent>
+              <nsComponent>2.04</nsComponent>
+              <ewComponent>2.31</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-NJN.gif</waveImageURI>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>基隆市地區</areaDesc>
+          <areaName>基隆市</areaName>
           <areaIntensity unit="級">1</areaIntensity>
           <infoStatus>observe</infoStatus>
           <eqStation>
-            <stationName>臺北市</stationName>
-            <stationCode>TAP</stationCode>
-            <stationLon unit="度">121.51</stationLon>
-            <stationLat unit="度">25.04</stationLat>
-            <distance unit="公里">77.35</distance>
-            <azimuth unit="度">149.44</azimuth>
+            <stationName>基隆市</stationName>
+            <stationCode>NOU</stationCode>
+            <stationLon unit="度">121.77</stationLon>
+            <stationLat unit="度">25.15</stationLat>
+            <distance unit="公里">47.88</distance>
+            <azimuth unit="度">159.00</azimuth>
             <stationIntensity unit="級">1</stationIntensity>
             <pga unit="gal">
-              <vComponent>0.75</vComponent>
-              <nsComponent>1.00</nsComponent>
-              <ewComponent>0.40</ewComponent>
+              <vComponent>0.55</vComponent>
+              <nsComponent>0.54</nsComponent>
+              <ewComponent>1.16</ewComponent>
             </pga>
             <infoStatus>observe</infoStatus>
-            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019020/1-TAP.gif</waveImageURI>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-NOU.gif</waveImageURI>
+          </eqStation>
+        </shakingArea>
+        <shakingArea>
+          <areaDesc>臺東縣地區</areaDesc>
+          <areaName>臺東縣</areaName>
+          <areaIntensity unit="級">1</areaIntensity>
+          <infoStatus>observe</infoStatus>
+          <eqStation>
+            <stationName>成功</stationName>
+            <stationCode>CHK</stationCode>
+            <stationLon unit="度">121.37</stationLon>
+            <stationLat unit="度">23.10</stationLat>
+            <distance unit="公里">191.92</distance>
+            <azimuth unit="度">17.61</azimuth>
+            <stationIntensity unit="級">1</stationIntensity>
+            <pga unit="gal">
+              <vComponent>0.32</vComponent>
+              <nsComponent>0.84</nsComponent>
+              <ewComponent>0.94</ewComponent>
+            </pga>
+            <infoStatus>observe</infoStatus>
+            <waveImageURI>https://scweb.cwb.gov.tw/webdata/drawTrace/outcome/2019/2019021/1-CHK.gif</waveImageURI>
           </eqStation>
         </shakingArea>
         <shakingArea>
           <areaDesc>最大震度3級地區</areaDesc>
-          <areaName>宜蘭縣</areaName>
+          <areaName>宜蘭縣、桃園市</areaName>
           <areaIntensity unit="級">3</areaIntensity>
         </shakingArea>
         <shakingArea>
           <areaDesc>最大震度2級地區</areaDesc>
-          <areaName>花蓮縣</areaName>
+          <areaName>臺北市、花蓮縣、新竹縣、臺中市、新竹市、新北市、南投縣、苗栗縣</areaName>
           <areaIntensity unit="級">2</areaIntensity>
         </shakingArea>
         <shakingArea>
           <areaDesc>最大震度1級地區</areaDesc>
-          <areaName>臺北市</areaName>
+          <areaName>基隆市、臺東縣</areaName>
           <areaIntensity unit="級">1</areaIntensity>
         </shakingArea>
       </intensity>
